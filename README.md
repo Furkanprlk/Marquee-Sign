@@ -1,9 +1,5 @@
 # MarqueeSign
-<div align="center">
-	<a href="https://github.com/Furkanprlk/Marquee-Sign/">
-		<img src="./RadioTelescope/photos/photo.jpg">
-	</a>
-</div>
+![Photo1](https://github.com/Furkanprlk/Marquee-Sign/blob/main/photos/photo.jpg)
 Make your own Scrolling Text! Easy to make LED Marquee Sign using a NodeMCU and a LED Dot Matrix Panel. Full Arduino software.
 
 [![GitHub followers](https://img.shields.io/github/followers/Furkanprlk?style=social)](https://github.com/Furkanprlk) 
