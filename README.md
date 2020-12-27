@@ -1,10 +1,11 @@
 # MarqueeSign
+Make your own Scrolling Text! Easy to make LED Marquee Sign using a NodeMCU and a LED Dot Matrix Panel. Full Arduino software.
 
 [![GitHub followers](https://img.shields.io/github/followers/Furkanprlk?style=social)](https://github.com/Furkanprlk) 
 
 
 ## Features (Coming Soon)
-* ---------
+* Configured through Web Interface
     * --------
 
 ### Supported Platforms
