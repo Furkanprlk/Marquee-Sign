@@ -61,7 +61,7 @@ void setup() {
     Tazele();
   } else {
     Serial.println("Sistem Ilk defa Acildigindan Kuruluyor...");
-    String Meleka= "Wifi: ";
+    String Meleka = "Wifi: ";
     Meleka += ssid;
     strcpy(Deneme[0], Meleka.c_str());
     Meleka = "Sifre: ";
@@ -97,13 +97,12 @@ void setup() {
     Serial.println("Ilk Kullanicisin");
   setupAP();
 }
-
 bool testWifi(void) {
   int c = 0;
   Serial.println("Waiting for Wifi to connect");
   while ( c < 20 ) {
     if (WiFi.status() == WL_CONNECTED) {
-      return true;
+      return false;
     }
     delay(500);
     Serial.print(WiFi.status());
@@ -113,6 +112,7 @@ bool testWifi(void) {
   Serial.println("Connect timed out, opening AP");
   return false;
 }
+
 
 void launchWeb(int webtype) {
   Serial.println("");
@@ -226,7 +226,7 @@ void createWebServer(int webtype)
     });
     server.on("/Deneme", []() {
       content = "<!DOCTYPE HTML><html><head><style> body {background-color:#FFFFFF;} h1   {color: #94D466;} h2   {color: #D4E88B;} #myHeader {background-color: #FFFFAE; color: #26490D; padding: 40px; text-align: center;} </style></head><body>";
-      content += "<h1 id='myHeader'>Taksi Tabela Panel</h1>";
+      content += "<h1 id='myHeader'>Marquee Sign</h1>";
       content += "<form method='get' action='Kaydet'>  <fieldset>  <legend><h1>Mesaj Listesi</h1></legend> ";
       for (int zz = 0; zz < 8; zz++) {
         content += "<p>Mesaj ";
@@ -378,10 +378,9 @@ void loop() {
   static textPosition_t just = PA_LEFT;
   static uint8_t bnmf = 0;
   if (P.displayAnimate()) {
-    if(Aktif[bnmf]==1)
+    if (Aktif[bnmf] == 1)
       P.displayText(Deneme[bnmf], just, Speed[bnmf], 0, Effect[bnmf], Effect[bnmf]);
     bnmf++;
     if (bnmf == 8) bnmf = 0;
   }
 }
-
