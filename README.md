@@ -24,7 +24,7 @@ A ready to use Marquee-Sign.zip is available on the [release page](https://githu
 * Install the labruary "MD_MAX72xx" (available from the library manager).
 
 #### Schematic
-![Schematic](https://github.com/Furkanprlk/Marquee-Sign/blob/master/RadioTelescope/data/netracker.ico)
+![Schematic](https://github.com/Furkanprlk/Marquee-Sign/blob/main/photos/schematic.png)
 
 #### Setup
 
