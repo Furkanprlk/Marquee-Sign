@@ -12,6 +12,7 @@ Make your own Scrolling Text! Easy to make LED Marquee Sign using a NodeMCU and 
 * Chrome Web Browser
 * Opera Web Browser
 * Edge Web Browser
+* Mobile Web Browser
 
 
 
@@ -21,8 +22,8 @@ Make your own Scrolling Text! Easy to make LED Marquee Sign using a NodeMCU and 
 A ready to use Marquee-Sign.zip is available on the [release page](https://github.com/Furkanprlk/Marquee-Sign/) and is based on HTML.
 
 #### Requirements
-* Install the labruary "MD_Parola" (available from the library manager).
-* Install the labruary "MD_MAX72xx" (available from the library manager).
+* Install the library "MD_Parola" (available from the library manager).
+* Install the library "MD_MAX72xx" (available from the library manager).
 
 #### Schematic
 ![Schematic](https://github.com/Furkanprlk/Marquee-Sign/blob/main/photos/schematic.png)
