@@ -7,8 +7,8 @@
 
 ESP8266WebServer server(80);
 
-char* ssid = "06T6705";
-char* passphrase = "QAZXSWEDC";
+char* ssid = "MarqueeSign";
+char* passphrase = "password";
 String st;
 String content;
 int statusCode;
